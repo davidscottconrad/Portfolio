@@ -30,6 +30,8 @@ a {
 }
 
 .section-1 {
+  box-shadow: 2px 2px 5px #333;
+  background-color: aqua;
   color: white;
   margin: 10vh;
 }

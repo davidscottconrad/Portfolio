@@ -53,14 +53,19 @@ a {
   box-sizing: border-box;
 }
 
+#image {
+  position: absolute;
+  z-index: 2;
 
-
+}
 
 .section-1 {
   box-shadow: 2px 2px 5px #333;
   background-color: aqua;
   color: white;
   margin: 10vh;
+  margin-left: 30vh;
+  margin-right: 30vh;
 }
 
 .section-2 {

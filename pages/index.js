@@ -12,7 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div id="bg">
-        <div className='section-0 '><h1>David Conrad</h1></div>
+        <div className='section-0 '>
+          <h1>David Conrad</h1>
+          <h1 style={{ marginTop: "4vh" }}>Portfolio</h1>
+        </div>
+
         <div className='section-1 '>
           <a href="https://dad-site-next.vercel.app/" target='_Blank'>
             <Image src={CEC} layout="responsive" id="image" alt="Conrad Eye Centers Logo" />
